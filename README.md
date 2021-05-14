@@ -7,8 +7,35 @@ Telegram Bots are special accounts that do not require an additional phone numbe
 
 # Registering a telegram Bot
 
-Use the BotFather for registering a new Bot
 ![image](https://user-images.githubusercontent.com/44311116/118290690-553ccd00-b4f4-11eb-882f-5e55fb7dd675.png)
+
+Use the BotFather for registering a new Bot
+
+# Setting up the Project
+1. Setup a Python Virtual Environment
+A virtual environment is a tool that helps to keep dependencies required by different projects separate by creating isolated python virtual environments for them.
+
+Create a Project Folder.
+Run following command to create a new virtual environment inside your project folder:
+
+python -m venv myvenv
+After running above command, a folder named myvenv will get created in your project folder.
+
+Activate the virtual environment by running following command:
+For ubuntu and mac users:
+  source myvenv/bin/activate
+For windows users:
+  myvenv\Scripts\activate
+  
+# Generate Public URL for Webhook using ngrok.io
+
+ngrok is a free tool that allows us to tunnel from a public URL to our application running locally.
+
+Download ngrok.
+Unzip it.
+Run ngrok from command line (from the location where executable is stored)
+./ngrok http 8443
+Copy the HTTPS Forwarding URL
 
 # How to get the client.json file from dialogflow API?
   1. Login into dialogflow console¶
