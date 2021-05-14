@@ -70,3 +70,13 @@ Copy the HTTPS Forwarding URL
   Enable small talks in your API console to enable the small talks
   
   We used gnewsclient for getting the news links for required domain
+  
+# Final Results
+![image](https://user-images.githubusercontent.com/44311116/118308216-51677580-b509-11eb-8b97-efd5d4042951.png)
+![image](https://user-images.githubusercontent.com/44311116/118308242-57f5ed00-b509-11eb-89a3-b853bca3421c.png)
+![image](https://user-images.githubusercontent.com/44311116/118308262-5e846480-b509-11eb-83d6-ab46a6d3df8a.png)
+![image](https://user-images.githubusercontent.com/44311116/118308280-63e1af00-b509-11eb-8412-dc2c83bb1a21.png)
+
+
+
+
